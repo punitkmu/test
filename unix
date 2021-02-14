@@ -1,0 +1,12 @@
+
+Use  “less” to open big files as it load page by page
+
+Multiline comment in bash file   :  <<EOF  next-line script-here last-line EOF
+   Multiline Comment with vim: :1,$ s/^/#/g ( substitute all lines start with # )
+   Multiline comment using sed: sed -i.bkp ‘s/^/#/g’ myfile.sh ( .bkp is make the backup file )
+
+Linux regular expression:
+regex cheat sheet: https://remram44.github.io/regex-cheatsheet/regex.html
+Test regex here: https://regexr.com/
+use regex with : find, awk , sed, grep
+use extended regular expression: grep -E
